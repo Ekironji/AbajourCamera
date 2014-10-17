@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AbajourCamera</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_discover">Discover Abajour</string>
+    
+    <string name="set_ip">Set ip address of abajour:</string>
+	<string name="hint_ip">ip address</string>
+    <string name="connect">Connect</string>
+    
+</resources>

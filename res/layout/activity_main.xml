@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ekirei.abajourcamera.MainActivity"
+    tools:ignore="MergeRootFrame" xmlns:app="http://schemas.android.com/apk/res/com.ekirei.abajourcamera">
+    
+    
+	<com.larswerkman.holocolorpicker.ColorPicker
+	    android:id="@+id/color_picker"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true"
+	    app:color_wheel_radius="150dp"
+        app:color_wheel_thickness="18dp"
+        app:color_pointer_radius="18dp"
+        app:color_pointer_halo_radius="22dp"/>
+    
+</RelativeLayout>
+
